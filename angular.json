@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/skywalker",
+            "outputPath": "../../../Kartheek-G-Portfolio",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -24,9 +24,27 @@
               "src/assets"
             ],
             "styles": [
+              "src/assets/vendor/bootstrap/css/bootstrap.min.css",
+              "src/assets/vendor/icofont/icofont.min.css",
+              "src/assets/vendor/remixicon/remixicon.css",
+              "src/assets/vendor/owl.carousel/assets/owl.carousel.min.css",
+              "src/assets/vendor/boxicons/css/boxicons.min.css",
+              "src/assets/vendor/venobox/venobox.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/vendor/jquery/jquery.min.js",
+              "src/assets/vendor/bootstrap/js/bootstrap.bundle.min.js",
+              "src/assets/vendor/jquery.easing/jquery.easing.min.js",
+              "src/assets/vendor/php-email-form/validate.js",
+              "src/assets/vendor/waypoints/jquery.waypoints.min.js",
+              "src/assets/vendor/counterup/counterup.min.js",
+              "src/assets/vendor/owl.carousel/owl.carousel.min.js",
+              "src/assets/vendor/isotope-layout/isotope.pkgd.min.js",
+              "src/assets/vendor/venobox/venobox.min.js",
+              "src/assets/js/main.js",
+              "src/assets/smtp.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -119,6 +137,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "skywalker"
+    }
+  },
+  "defaultProject": "skywalker",
+  "cli": {
+    "analytics": "7341e027-9d46-44f7-aca0-260a51721aeb"
+  }
 }
