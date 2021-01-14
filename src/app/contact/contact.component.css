@@ -44,6 +44,7 @@
   line-height: 1;
   margin-right: 12px;
   transition: 0.3s;
+  padding: 12px;
 }
 
 .info-box .social-links a:hover {
