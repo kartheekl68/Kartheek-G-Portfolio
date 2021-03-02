@@ -1,7 +1,6 @@
 {
   "name": "skywalker",
   "version": "0.0.0",
-  "homepage": "https://kartheekl68.github.io/Kartheek-G-Portfolio/",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
